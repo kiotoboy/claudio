@@ -1,3 +1,27 @@
+h1 span {
+	background-color: black;
+	color: white;
+	padding: 5px 10px 5px 10px;
+}
+h3 span {
+	background-color: black;
+	color: white;
+	padding: 5px 10px 5px 10px;
+}
+
 .align-center {
 	text-align: center;
 }
+#color1 {
+	background-color: red;
+}
+#color2 {
+	background-color: pink;
+}
+#color3 {
+	background-color: lightblue;
+}
+#color4 {
+	background-color: lightgreen;
+}
+
