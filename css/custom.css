@@ -26,6 +26,9 @@ h3 span {
 	background-color: lightgreen;
 }
 
+.alt600{
+	height: 138px;
+}
 
 /* media queries */
 
@@ -36,32 +39,32 @@ h3 span {
 @screen-md-max: 1199px;
 @screen-lg-min: 1200px;
 
-//xs only
+/* xs only */
 @media(max-width: @screen-xs-max) {
 
 }
 
-//small and up
+/* small and up */
 @media(min-width: @screen-sm-min) {
 
 }
 
-//sm only
+/* sm only */
 @media(min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
 
 }
 
-//md and up
+/* md and up */
 @media(min-width: @screen-md-min) {
 
 }
 
-//md only
+/* md only */
 @media(min-width: @screen-md-min) and (max-width: @screen-md-max) {
 
 }
 
-//lg and up
+/* lg and up */
 @media(min-width: @screen-lg-min) {
 
 }
